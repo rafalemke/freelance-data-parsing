@@ -40,14 +40,3 @@ A principal dificuldade era unificar a lista de presença com a de votação, po
 
 ### 4. Exportação e Resultados
 Após unificar as tabelas, o resultado foi exportado para um arquivo .xlsx. A tabela final foi rica em informações, permitindo cruzar a presença com o voto de cada pessoa. Isso gerou insights valiosos para o cliente, que pôde utilizar os dados de forma confiável em uma audiência. O projeto demonstra a capacidade de transformar dados desestruturados em informações úteis e prontas para uso em negócios.
-
-
----
-
-## Resultados da Análise
-
-Um visual simples dos resultados finais. Após a extração e o tratamento, geramos insights como a distribuição de votantes por diferentes critérios.
-
-![Análise em Excel - Gráficos de Distribuição e Presença](Print_excel.png)
-
----
