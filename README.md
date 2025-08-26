@@ -3,14 +3,13 @@
 Este repositório documenta um trabalho freelance focado em engenharia de dados e automação de processos. O objetivo foi extrair, tratar e unificar dados de aproximadamente 60 arquivos PDF, cada um com 16 páginas, que continham listas de presença e votação em um formato vetorial, impossibilitando a simples cópia do texto.
 
 ## Desafio Técnico
+ Os arquivos PDFs não permitiam a extração de texto de forma convencional, pois as informações eram armazenadas como dados vetoriais (basicamente, "desenhos" de texto). Isso exigiu uma abordagem mais avançada para converter essas imagens em texto legível por máquina e, posteriormente, estruturar os dados para análise.
 
-Os arquivos PDFs não permitiam a extração de texto de forma convencional, pois as informações eram armazenadas como dados vetoriais (basicamente, "desenhos" de texto). Isso exigiu uma abordagem mais avançada para converter essas imagens em texto legível por máquina e, posteriormente, estruturar os dados para análise.
----
 
 ## Tecnologias e Ferramentas Utilizadas
 * **Python:** Linguagem de programação principal.
 
-* **Jupyter** Notebooks:** Utilizados para o desenvolvimento e a exploração de cada etapa do processo.
+* **Jupyter Notebooks:** Utilizados para o desenvolvimento e a exploração de cada etapa do processo.
 
 * **Pandas:** Essencial para a manipulação, tratamento e análise de dados tabulares.
 
@@ -41,3 +40,14 @@ A principal dificuldade era unificar a lista de presença com a de votação, po
 
 ### 4. Exportação e Resultados
 Após unificar as tabelas, o resultado foi exportado para um arquivo .xlsx. A tabela final foi rica em informações, permitindo cruzar a presença com o voto de cada pessoa. Isso gerou insights valiosos para o cliente, que pôde utilizar os dados de forma confiável em uma audiência. O projeto demonstra a capacidade de transformar dados desestruturados em informações úteis e prontas para uso em negócios.
+
+
+---
+
+## Resultados da Análise
+
+Um visual simples dos resultados finais. Após a extração e o tratamento, geramos insights como a distribuição de votantes por diferentes critérios.
+
+![Análise em Excel - Gráficos de Distribuição e Presença](Print_excel.png)
+
+---
